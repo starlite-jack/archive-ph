@@ -1,6 +1,6 @@
 .title{
     color: black;
-    font-size: 64px;
+    font-size: 34px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -139,7 +139,7 @@ resize: none;
 	and (orientation: landscape) {
 	.title{
     color: black;
-    font-size: 64px;
+    font-size: 34px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
