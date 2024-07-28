@@ -1,0 +1,202 @@
+.title{
+    color: black;
+    font-size: 64px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.titlebox{
+    background-color: #80bfff;
+}
+
+.inputbox{
+    background-color: #80bfff;
+    width: 640px;
+    margin: auto;
+    height: 300px;
+    position: relative;
+    top: 36px;
+}
+
+.button{
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 34px;
+    width: 100px;
+    height: 85px;
+    position: absolute;
+    top: 11px;
+    left: 530px;
+}
+
+.inputfield{
+    background-color: #232428;
+    color: white;
+    border: none;
+    width: 513px;
+    height: 247px;
+    position: absolute;
+resize: none;
+    top: 11px;
+    left: 11px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+.cleartext{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 259px;
+    left: 11px;
+    font-size: 30px;
+}
+
+.pastetext{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 259px;
+    left: 180px;
+    font-size: 30px;
+}
+
+
+/*============================================================================*/
+/* For Mobile Portrait View */
+/*============================================================================*/
+@media screen and (max-device-width: 1080px)
+	and (orientation: portrait) {
+	.title{
+    color: black;
+    font-size: 34px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.titlebox{
+    background-color: #80bfff;
+}
+
+.button{
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 34px;
+    width: 100px;
+    height: 85px;
+    position: absolute;
+    top: 173px;
+    left: 248px;
+}
+
+.inputbox{
+    background-color: #80bfff;
+    width: 360px;
+    margin: auto;
+    height: 300px;
+    position: relative;
+    top: 36px;
+}
+
+.inputfield{
+    background-color: #232428;
+    color: white;
+    border: none;
+    width: 230px;
+    height: 247px;
+    position: absolute;
+resize: none;
+    top: 11px;
+    left: 11px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+
+.cleartext{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 259px;
+    left: 11px;
+    font-size: 30px;
+}
+
+.pastetext{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 259px;
+    left: 180;
+    font-size: 30px;
+}
+}
+
+
+/*============================================================================*/
+/* For Mobile Landscape View */
+/*============================================================================*/
+@media screen and (max-device-width: 2408px)
+	and (orientation: landscape) {
+	.title{
+    color: black;
+    font-size: 64px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.titlebox{
+    background-color: #80bfff;
+}
+
+.inputbox{
+    background-color: #80bfff;
+    width: 640px;
+    margin: auto;
+    height: 300px;
+    position: relative;
+    top: 36px;
+}
+
+.button{
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 34px;
+    width: 100px;
+    height: 85px;
+    position: absolute;
+    top: 11px;
+    left: 530px;
+}
+
+.inputfield{
+    background-color: #232428;
+    color: white;
+    border: none;
+    width: 513px;
+    height: 247px;
+    position: absolute;
+resize: none;
+    top: 11px;
+    left: 11px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+
+.cleartext{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 259px;
+    left: 11px;
+    font-size: 30px;
+}
+
+.pastetext{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 259px;
+    left: 180;
+    font-size: 30px;
+}
+}
