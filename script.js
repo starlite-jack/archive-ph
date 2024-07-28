@@ -5,7 +5,7 @@ function button1() {
       var trimmedLink = links[i].trim();
       if (trimmedLink) {
         if (!trimmedLink.match(/(https?:\/\/)/)) {
-          trimmedLink = "https://" + trimmedLink; 
+          trimmedLink = 'https://archive.ph/?run=1&url=' + trimmedLink; 
         }
         window.open(trimmedLink, '_blank');
       }
