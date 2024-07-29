@@ -1,4 +1,4 @@
-function button1() {
+function button1() { //test
     var input = document.getElementById("inputfieldjs").value;
     var links = input.split(/\r?\n/); 
     for (var i = 0; i < links.length; i++) {
