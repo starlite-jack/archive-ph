@@ -25,7 +25,7 @@
     width: 100px;
     height: 85px;
     position: absolute;
-    top: 11px;
+    top: 20px;
     left: 530px;
 }
 
@@ -81,7 +81,7 @@ resize: none;
     background-color: black;
     color: white;
     border: none;
-    font-size: 34px;
+    font-size: 20px;
     width: 100px;
     height: 85px;
     position: absolute;
@@ -160,7 +160,7 @@ resize: none;
     background-color: black;
     color: white;
     border: none;
-    font-size: 34px;
+    font-size: 20px;
     width: 100px;
     height: 85px;
     position: absolute;
