@@ -10,7 +10,7 @@
 
 .inputbox{
     background-color: #80bfff;
-    width: 640px;
+    width: 645px;
     margin: auto;
     height: 300px;
     position: relative;
@@ -21,11 +21,11 @@
     background-color: black;
     color: white;
     border: none;
-    font-size: 20px;
+    font-size: 30px;
     width: 100px;
     height: 85px;
-    position: absolute;
-    top: 20px;
+    position: relative;
+    top: 11px;
     left: 530px;
 }
 
@@ -81,19 +81,19 @@ resize: none;
     background-color: black;
     color: white;
     border: none;
-    font-size: 20px;
-    width: 100px;
-    height: 85px;
-    position: absolute;
-    top: 173px;
-    left: 248px;
+    font-size: 30px;
+    width: 136px;
+    height: 70px;
+    position: relative;
+    top: 265px;
+    left: 213px;
 }
 
 .inputbox{
     background-color: #80bfff;
     width: 360px;
     margin: auto;
-    height: 300px;
+    height: 345px;
     position: relative;
     top: 36px;
 }
@@ -102,7 +102,7 @@ resize: none;
     background-color: #232428;
     color: white;
     border: none;
-    width: 230px;
+    width: 338px;
     height: 247px;
     position: absolute;
 resize: none;
@@ -116,18 +116,20 @@ resize: none;
     color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     position: absolute;
-    top: 259px;
-    left: 11px;
-    font-size: 30px;
+    background-color: #FFC080;
+    padding: 3 8px;
+    top: 265px;
+    left: 10px;
+    font-size: 26px;
 }
 
 .pastetext{
     color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     position: absolute;
-    top: 259px;
-    left: 180;
-    font-size: 30px;
+    top: 308px;
+    left: 10;
+    font-size: 26px;
 }
 }
 
@@ -149,7 +151,7 @@ resize: none;
 
 .inputbox{
     background-color: #80bfff;
-    width: 640px;
+    width: 673px;
     margin: auto;
     height: 300px;
     position: relative;
@@ -160,10 +162,10 @@ resize: none;
     background-color: black;
     color: white;
     border: none;
-    font-size: 20px;
-    width: 100px;
+    font-size: 30px;
+    width: 133px;
     height: 85px;
-    position: absolute;
+    position: relative;
     top: 11px;
     left: 530px;
 }
