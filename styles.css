@@ -1,15 +1,15 @@
 .title{
-    color: white;
+    color: black;
     font-size: 34px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .titlebox{
-    background-color: #FF0000;
+    background-color: #80bfff;
 }
 
 .inputbox{
-    background-color: #FF0000;
+    background-color: #80bfff;
     width: 670px;
     margin: auto;
     height: 310px;
@@ -18,8 +18,8 @@
 }
 
 .button{
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
     border: none;
     font-size: 30px;
     width: 100px;
@@ -30,7 +30,7 @@
 }
 
 .inputfield{
-    background-color: #212121;
+    background-color: #232428;
     color: white;
     border: none;
     width: 513px;
@@ -44,7 +44,7 @@ resize: none;
 }
 
 .cleartext{
-    color: white;
+    color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     position: absolute;
     top: 259px;
@@ -53,7 +53,7 @@ resize: none;
 }
 
 .pastetext{
-    color: white;
+    color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     position: absolute;
     top: 259px;
@@ -68,18 +68,18 @@ resize: none;
 @media screen and (max-device-width: 1080px)
 	and (orientation: portrait) {
 	.title{
-    color: white;
+    color: black;
     font-size: 34px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .titlebox{
-    background-color: #FF0000;
+    background-color: #80bfff;
 }
 
 .button{
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
     border: none;
     font-size: 30px;
     width: 136px;
@@ -90,7 +90,7 @@ resize: none;
 }
 
 .inputbox{
-    background-color: #FF0000;
+    background-color: #80bfff;
     width: 360px;
     margin: auto;
     height: 345px;
@@ -99,7 +99,7 @@ resize: none;
 }
 
 .inputfield{
-    background-color: #212121;
+    background-color: #232428;
     color: white;
     border: none;
     width: 338px;
@@ -113,10 +113,10 @@ resize: none;
 }
 
 .cleartext{
-    color: white;
+    color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     position: absolute;
-    background-color: #494949;
+    background-color: #FFC080;
     padding: 3 8px;
     top: 265px;
     left: 10px;
@@ -124,7 +124,7 @@ resize: none;
 }
 
 .pastetext{
-    color: white;
+    color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     position: absolute;
     top: 308px;
@@ -140,17 +140,17 @@ resize: none;
 @media screen and (max-device-width: 2408px)
 	and (orientation: landscape) {
 	.title{
-    color: white;
+    color: black;
     font-size: 34px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .titlebox{
-    background-color: #FF0000;
+    background-color: #80bfff;
 }
 
 .inputbox{
-    background-color: #FF0000;
+    background-color: #80bfff;
     width: 670px;
     margin: auto;
     height: 310px;
@@ -159,8 +159,8 @@ resize: none;
 }
 
 .button{
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
     border: none;
     font-size: 30px;
     width: 133px;
@@ -171,7 +171,7 @@ resize: none;
 }
 
 .inputfield{
-    background-color: #212121;
+    background-color: #232428;
     color: white;
     border: none;
     width: 513px;
@@ -185,16 +185,17 @@ resize: none;
 }
 
 .cleartext{
-    color: white;
+    color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     position: absolute;
+    background-color: #FFC080;
     top: 259px;
     left: 11px;
     font-size: 30px;
 }
 
 .pastetext{
-    color: white;
+    color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     position: absolute;
     top: 259px;
