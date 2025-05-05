@@ -5,9 +5,9 @@ function button1() {
         var trimmedLink = links[i].trim();
         if (trimmedLink) {
             if (!trimmedLink.match(/(https?:\/\/)/)) {
-                trimmedLink = 'https://archive.ph/?run=1&url=' + encodeURIComponent(trimmedLink);
+                trimmedLink = 'https://archive.ph/submit/?url=' + encodeURIComponent(trimmedLink);
             } else {
-                trimmedLink = 'https://archive.ph/?run=1&url=' + encodeURIComponent(trimmedLink);
+                trimmedLink = 'https://archive.ph/submit/?url=' + encodeURIComponent(trimmedLink);
             }
             try {
                 window.open(trimmedLink, '_blank');
