@@ -19,7 +19,10 @@ function button1() {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-    
+    const textarea = document.getElementById("inputfieldjs");
+  if (textarea) {
+    textarea.focus();
+  }
 });
 
 function clearthetext(){
