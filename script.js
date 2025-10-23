@@ -20,6 +20,22 @@ function button1() {
 
 document.addEventListener('DOMContentLoaded', () => {
     const textarea = document.getElementById("inputfieldjs");
+    const pasteLink = document.querySelector(".cleartext");
+    const clearLink = document.querySelector(".pastetext");
+    
+    function preventFocusSteal(e) {
+        e.preventDefault();
+    }
+    
+    if (pasteLink) {
+        pasteLink.addEventListener('mousedown', preventFocusSteal);
+        pasteLink.addEventListener('touchstart', preventFocusSteal); 
+    }
+
+    if (clearLink) {
+        clearLink.addEventListener('mousedown', preventFocusSteal);
+        clearLink.addEventListener('touchstart', preventFocusSteal); 
+    }
   if (textarea) {
     textarea.focus();
   }
