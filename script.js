@@ -51,6 +51,9 @@ function pastetext() {
         prompt("looks like we have encountered an error\nplease copy and search the error below", err);
       });
   }, 50);
+
+  const target = document.getElementById("theinputbox");
+  target.scrollIntoView();
 }
 
 document.addEventListener("keydown", function (e) {
