@@ -30,14 +30,27 @@ function clearthetext(){
 }
 
 function pastetext() {
-    var textarea = document.querySelector('textarea');
+  const textarea = document.getElementById('inputfieldjs');
+  if (!textarea) return;
+
+  textarea.focus();
+
+  setTimeout(() => {
     navigator.clipboard.readText()
-        .then(text => {
-            textarea.value = text;
-        })
-        .catch(err => {
-            prompt("looks like we have encountered an error\nplease copy and search the error below", err)
-        });
+      .then(text => {
+        const start = textarea.selectionStart;
+        const end = textarea.selectionEnd;
+        const before = textarea.value.substring(0, start);
+        const after = textarea.value.substring(end);
+        textarea.value = before + text + after;
+        const newPos = start + text.length;
+        textarea.setSelectionRange(newPos, newPos);
+        textarea.focus();
+      })
+      .catch(err => {
+        prompt("looks like we have encountered an error\nplease copy and search the error below", err);
+      });
+  }, 50);
 }
 
 document.addEventListener("keydown", function (e) {
@@ -59,3 +72,4 @@ document.addEventListener("keydown", function (e) {
     }
   }
 });
+
